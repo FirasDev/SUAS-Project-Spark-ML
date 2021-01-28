@@ -19,6 +19,7 @@ Please see `example/DataReader.py` an example how to prepare the data in require
 
 ## Breast Cancer Wisconsin structure
 
+```
 root
  |-- _c0: integer (nullable = true)
  |-- diagnosis: string (nullable = true)
@@ -52,6 +53,7 @@ root
  |-- concave points_worst: double (nullable = true)
  |-- symmetry_worst: double (nullable = true)
  |-- fractal_dimension_worst: double (nullable = true)
+ ```
 
 
 ## Scatter Matrix 
