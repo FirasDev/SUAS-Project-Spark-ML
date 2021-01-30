@@ -1,77 +1,16 @@
-# SUAS SPARK ML PROJECT
-
-This project implement pyspark to test machine learning algorithms on 3 seperate datasets.
-
-# Databases
-The used databases in this project are the following :
-- [ ] **Breast Cancer Wisconsin** 
-    - Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image.
-		n the 3-dimensional space is that described in: [K. P. Bennett and O. L. Mangasarian: "Robust Linear Programming Discrimination of Two Linearly Inseparable Sets", Optimization Methods and Software 1, 1992, 23-34]. 
-- [ ] **Novel Corona Virus 2019 Dataset**: 
-	- From World Health Organization - On 31 December 2019, WHO was alerted to several cases of pneumonia in Wuhan City, Hubei Province of China. The virus did not match any other known virus. This raised concern because when a virus is new, we do not know how it affects people.
-- [ ] **Political conflicts in Africa from 1997-2018**
-    - The Armed Conflict Location & Event Data Project (ACLED) is a disaggregated conflict collection, analysis and crisis mapping project. ACLED collects the dates, actors, types of violence, locations, and fatalities of all reported political violence and protest events across Africa, South Asia, South East Asia, the Middle East, Europe, and Latin America. Political violence and protest includes events that occur within civil wars and periods of instability, public protest and regime breakdown. ACLED’s aim is to capture the forms, actors, dates and locations of political violence and protest as it occurs across states. The ACLED team conducts analysis to describe, explore and test conflict scenarios, and makes both data and analysis open to freely use by the public.
-
-## Breast Cancer Wisconsin structure
-
-```
-root
- |-- _c0: integer (nullable = true)
- |-- diagnosis: string (nullable = true)
- |-- radius_mean: double (nullable = true)
- |-- texture_mean: double (nullable = true)
- |-- perimeter_mean: double (nullable = true)
- |-- area_mean: double (nullable = true)
- |-- smoothness_mean: double (nullable = true)
- |-- compactness_mean: double (nullable = true)
- |-- concavity_mean: double (nullable = true)
- |-- concave points_mean: double (nullable = true)
- |-- symmetry_mean: double (nullable = true)
- |-- fractal_dimension_mean: double (nullable = true)
- |-- radius_se: double (nullable = true)
- |-- texture_se: double (nullable = true)
- |-- perimeter_se: double (nullable = true)
- |-- area_se: double (nullable = true)
- |-- smoothness_se: double (nullable = true)
- |-- compactness_se: double (nullable = true)
- |-- concavity_se: double (nullable = true)
- |-- concave points_se: double (nullable = true)
- |-- symmetry_se: double (nullable = true)
- |-- fractal_dimension_se: double (nullable = true)
- |-- radius_worst: double (nullable = true)
- |-- texture_worst: double (nullable = true)
- |-- perimeter_worst: double (nullable = true)
- |-- area_worst: double (nullable = true)
- |-- smoothness_worst: double (nullable = true)
- |-- compactness_worst: double (nullable = true)
- |-- concavity_worst: double (nullable = true)
- |-- concave points_worst: double (nullable = true)
- |-- symmetry_worst: double (nullable = true)
- |-- fractal_dimension_worst: double (nullable = true)
- ```
-
-
-## Scatter Matrix 
-
-![scatter](figures/Breast_cancer/scatter_matrix.png)
-
-## HeatMap 
-
-![scatter](figures/Breast_cancer/heat_map.png)
-
-## Principal component analysis
-
-![scatter](figures/Breast_cancer/PCA.png)
-
-## Logistic regression
-
-![scatter](figures/Breast_cancer/logistic_regression.png)
-
-## Tree Classifier
-
-![scatter](figures/Breast_cancer/tree_classifier.png)
-
-## Kmeans
-
-![scatter](figures/Breast_cancer/kmeans.png)
+![SUAS Spark ML-page-001](https://user-images.githubusercontent.com/55855575/106342745-6e51a300-62a2-11eb-9b78-b8ffd2e6caf7.jpg)
+![SUAS Spark ML-page-002](https://user-images.githubusercontent.com/55855575/106342747-6e51a300-62a2-11eb-9107-f124db34b04a.jpg)
+![SUAS Spark ML-page-003](https://user-images.githubusercontent.com/55855575/106342748-6e51a300-62a2-11eb-80cc-2a9d30334bd8.jpg)
+![SUAS Spark ML-page-004](https://user-images.githubusercontent.com/55855575/106342730-6b56b280-62a2-11eb-8d44-fdfc6f333bc6.jpg)
+![SUAS Spark ML-page-005](https://user-images.githubusercontent.com/55855575/106342733-6bef4900-62a2-11eb-899a-2ac3fcaf919a.jpg)
+![SUAS Spark ML-page-006](https://user-images.githubusercontent.com/55855575/106342735-6bef4900-62a2-11eb-9c8d-b05a3266917b.jpg)
+![SUAS Spark ML-page-007](https://user-images.githubusercontent.com/55855575/106342736-6c87df80-62a2-11eb-95a1-e71c77e8b32d.jpg)
+![SUAS Spark ML-page-008](https://user-images.githubusercontent.com/55855575/106342737-6c87df80-62a2-11eb-859d-2a35b0e82534.jpg)
+![SUAS Spark ML-page-009](https://user-images.githubusercontent.com/55855575/106342738-6c87df80-62a2-11eb-9fd8-f4eaeba1c447.jpg)
+![SUAS Spark ML-page-010](https://user-images.githubusercontent.com/55855575/106342739-6c87df80-62a2-11eb-994a-7d91c9fdcbd7.jpg)
+![SUAS Spark ML-page-011](https://user-images.githubusercontent.com/55855575/106342740-6d207600-62a2-11eb-816a-96ca1414eb28.jpg)
+![SUAS Spark ML-page-012](https://user-images.githubusercontent.com/55855575/106342741-6d207600-62a2-11eb-8d0b-bc4daf6ab30e.jpg)
+![SUAS Spark ML-page-013](https://user-images.githubusercontent.com/55855575/106342742-6d207600-62a2-11eb-975f-ee9644e1d149.jpg)
+![SUAS Spark ML-page-014](https://user-images.githubusercontent.com/55855575/106342743-6db90c80-62a2-11eb-90fe-0736cf8ff3ab.jpg)
+![SUAS Spark ML-page-015](https://user-images.githubusercontent.com/55855575/106342744-6db90c80-62a2-11eb-84ae-6abd89a2af12.jpg)
 
